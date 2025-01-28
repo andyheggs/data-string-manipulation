@@ -63,7 +63,8 @@ def full_description_concatenation(first_name, last_name, age):
      the age using concatenation
     example: full_description_concatenation("john", "doe", 33) => "John Doe is 33"
     """
-    pass  # YOUR CODE HERE
+    return (first_name.capitalize() , last_name.capitalize(), (age))
+print(full_description_concatenation('andy', 'heggs', 45))
 
 def full_description_formatting(first_name, last_name, age):
     """
