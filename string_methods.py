@@ -13,7 +13,7 @@ def add_comma(a_string):
     returns a copy of the string with every word separated by a comma
     example: add_comma("John Peter Jude") => "John, Peter, Jude"
     """
-    return(', '.join(a_string.split()))
+    return', '.join(a_string.split())
 print(add_comma("John Peter Jude"))
 
 
@@ -22,7 +22,7 @@ def belongs_to(a_string, a_word):
     returns True if a_string contains a_word
     example: belongs_to("hey jude", "jude") => True
     """
-    return (a_word in a_string)
+    return a_word in a_string
 print(belongs_to("hey jude", "jude"))
 
 def count_repetition(a_string, a_substring):
@@ -38,7 +38,8 @@ def is_a_question(a_string):
     returns True if a_string ends with a "?"
     example: is_a_question("How are you?") => True
     """
-    pass  # YOUR CODE HERE
+    return a_string.endswith("?")
+print(is_a_question("hello?"))
 
 def remove_surrounding_whitespaces(a_string):
     """
