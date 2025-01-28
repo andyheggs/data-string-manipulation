@@ -46,7 +46,8 @@ def remove_surrounding_whitespaces(a_string):
     returns a copy of the string with leading and trailing whitespaces removed
     example: remove_surrounding_whitespaces("  hey yo  ") => "hey yo"
     """
-    pass  # YOUR CODE HERE
+    return a_string.strip()
+print(remove_surrounding_whitespaces("  hey yo  "))
 
 def replace(initial_string, old_letter, new_letter):
     """
