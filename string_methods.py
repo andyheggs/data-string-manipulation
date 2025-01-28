@@ -22,7 +22,8 @@ def belongs_to(a_string, a_word):
     returns True if a_string contains a_word
     example: belongs_to("hey jude", "jude") => True
     """
-    pass  # YOUR CODE HERE
+    return (a_word in a_string)
+print(belongs_to("hey jude", "jude"))
 
 def count_repetition(a_string, a_substring):
     """
