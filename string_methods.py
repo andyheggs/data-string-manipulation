@@ -54,7 +54,8 @@ def replace(initial_string, old_letter, new_letter):
     returns a copy of the string with the new letter replacing the old one
     example: replace("casanova", "a", "o") => "cosonovo"
     """
-    pass  # YOUR CODE HERE
+    return initial_string.replace(old_letter, new_letter)
+print(replace( "apple", "p", "f"))
 
 def full_description_concatenation(first_name, last_name, age):
     """
