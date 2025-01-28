@@ -30,7 +30,8 @@ def count_repetition(a_string, a_substring):
     returns how many times a_substring occurs in a_string
     example: count_repetition("000123000123", "0") => 6
     """
-    pass  # YOUR CODE HERE
+    return a_string.count(a_substring)
+print(count_repetition("000123000123", "0"))
 
 def is_a_question(a_string):
     """
