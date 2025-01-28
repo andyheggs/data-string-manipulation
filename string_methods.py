@@ -4,12 +4,18 @@
 # - One line of code for each method
 # - Just look in the doc for the right method of the String class!
 
+# txt = '"some" "words" "but" "no" "commas"'
+# commas_added = ', '.join(txt.split())
+# print(commas_added)
+
 def add_comma(a_string):
     """
     returns a copy of the string with every word separated by a comma
     example: add_comma("John Peter Jude") => "John, Peter, Jude"
     """
-    pass  # YOUR CODE HERE
+    return(', '.join(a_string.split()))
+print(add_comma("John Peter Jude"))
+
 
 def belongs_to(a_string, a_word):
     """
